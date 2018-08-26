@@ -168,6 +168,7 @@
                       {% if settings.product_short_desc != '0' %}
                       <div class="short-description-detail">
                         <div class="short-description">
+                          {%- assign description = product.description -%}  
                           {{ description }}
                         </div>
                       </div> 
